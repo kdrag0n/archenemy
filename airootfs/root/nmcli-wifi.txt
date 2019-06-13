@@ -1,0 +1,20 @@
+Show an overview of all connections:
+    nmcli
+
+List radios:
+    nmcli radio
+
+List interfaces:
+    nmcli device
+
+List connections:
+    nmcli connection
+
+Scan for networks:
+    nmcli device wifi rescan
+
+List scanned networks:
+    nmcli device wifi list
+
+Connect to a network:
+    nmcli device wifi connect [ssid] password [password]
