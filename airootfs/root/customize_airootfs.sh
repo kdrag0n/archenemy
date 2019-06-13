@@ -25,4 +25,4 @@ systemctl enable pacman-init.service
 systemctl enable NetworkManager.service
 systemctl set-default multi-user.target
 
-rm /etc/securetty
+rm -f /etc/securetty /usr/share/factory/etc/securetty
