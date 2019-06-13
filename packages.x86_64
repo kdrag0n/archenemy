@@ -64,3 +64,5 @@ wireless_tools
 wpa_supplicant
 wvdial
 xl2tpd
+linux-headers
+archzfs-linux
