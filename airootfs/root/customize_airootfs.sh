@@ -12,7 +12,6 @@ cp -aT /etc/skel/ /root/
 chmod 700 /root
 
 sed -i 's/#\(PermitRootLogin \).\+/\1yes/' /etc/ssh/sshd_config
-sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
 sed -i 's/#\(Storage=\)auto/\1volatile/' /etc/systemd/journald.conf
 head -n -5 /etc/pacman.conf > /etc/pacman.conf.new
 mv /etc/pacman.conf.new /etc/pacman.conf
